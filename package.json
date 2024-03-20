@@ -1,10 +1,14 @@
 {
-  "name": "tspackage1",
-  "version": "1.0.0",
+  "name": "@tonyashen/tspackage1",
+  "version": "1.1.0",
   "description": "tonya very first package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/tonyashen/ts-package-repo.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "author": "tonya shen",
   "license": "ISC"
